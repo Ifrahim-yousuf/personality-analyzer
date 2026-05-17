@@ -38,6 +38,10 @@ namespace PersonalityAnalyzer.Controllers
             {
                 ViewBag.Message = "You are calm and thoughtful.";
             }
+            else if (type == "bird")
+            {
+                ViewBag.Message = "You are creative and energetic.";
+            }
             else
             {
                 ViewBag.Message = "Personality not found.";
